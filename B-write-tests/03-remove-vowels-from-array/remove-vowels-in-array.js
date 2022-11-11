@@ -14,3 +14,5 @@ module.exports = removeVowelsFromWords;
     input: ["Irina", "Etza", "Daniel"]
     expected output: ["rn", "tz", "Dnl"]
 */
+
+
