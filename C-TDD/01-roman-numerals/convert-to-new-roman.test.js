@@ -1,7 +1,9 @@
-let convertToNewRoman = require("./convert-to-new-roman");
+test("returns IV if passed 4 as an argument", function () {
 
-test("returns I if passed 1 as an argument", function () {
-  // Arrange
-  // Act
-  // Assert
+  let number = 4;
+  let expected = "IV";
+  
+  let result = convertToNewRoman(number);
+  
+  expect(result).toEqual(expected);
 });
